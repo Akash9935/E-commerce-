@@ -18,7 +18,7 @@ import { useRouter } from 'next/router'
 import { useSelector } from 'react-redux';
 
 const pages = ['Bookmark','Blog'];
-const settings = ['SignUp', 'Logout'];
+const settings = ['SignUp', 'login', 'Logout'];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -113,6 +113,15 @@ function Header() {
                 onClick={()=>router.push("/signup")}
               >
                 SignUp
+              </Button>
+
+              <Button
+                
+                // onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+                onClick={()=>router.push("/login")}
+              >
+                Login
               </Button>
          
           </Box>
