@@ -63,7 +63,7 @@ function Header() {
             }}
             onClick={()=>router.push("/")}
           >
-            QUIZ-APP
+            E-Commerce 
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

@@ -6,6 +6,7 @@ import Card from "../component/Card";
 // import { data } from "./productData";
 import {data} from "../productData"
 import styles from "../styles/Home.module.css"
+import Footer from "../component/Footer"
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
         })}
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

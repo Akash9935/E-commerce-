@@ -1,4 +1,33 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  margin: 10px;
+  /* width: 300px; */
+  flex-wrap: wrap;
+}
+.hi{
+  padding: 10px;
+  margin: 10px;
 
-.main{
-  background-color: #d5e7f0;
+}
+.home{ 
+ 
+  display: flex;
+  color: white;
+  background-color: rgba(24, 26, 25, 0.845);
+  justify-content: center;
+  border-radius: 5px;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0 10px;
+  
+}
+.home:hover {
+  background-color: #555;
+  color: #fff;
+  border-radius: 4px;
 }
